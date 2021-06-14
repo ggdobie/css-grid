@@ -70,8 +70,21 @@
     .container {
       display: grid;
       grid-gap: 20px;
-      grid-template-columns: repeat(10, 1fr);
+      border: 2px solid tomato;
+      grid-template-columns: repeat(5, 100px);
+      grid-template-rows: repeat(10, 100px);
+      justify-content: space-between;
     }
+    
+    .itm {
+      background: white;
+    }
+    
+    .itm5 {
+      justify-self: center;
+      align-self: center;
+    }
+    
   </style>
 </body>
 
